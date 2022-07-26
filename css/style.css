@@ -1,0 +1,140 @@
+html{
+    margin: 0%;
+}
+header{
+    margin-top: 40px;
+}
+
+.Melvin_navegacion_principal{
+    background-color: rgb(201,255,106);
+    display: flex;
+    height: 60px;
+    box-shadow: 10px 10px 30px black;
+}
+.Melvin_navegacion_principal a{
+    text-decoration: none;
+}
+
+.Melvin_navegacion_principal li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+h1{
+    text-align: center;
+}
+.blog_noticias{
+    display: flex;
+    background-color: rgba(231, 231, 231, 0.774);
+    padding: 30px;
+    align-items: center;
+}
+hr {
+    border: 1.5px solid black;
+    background-color: black;
+    width: 50%;
+    margin-left: 0%;    
+}
+.flor1{
+    width: 800px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 50px;
+}
+.Melvin{
+    margin: 10px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.contenedor_izquierdo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 40px;
+}
+.contenedor_derecho{
+
+    margin: 40px;
+}
+.flores{
+    height: 500px;
+    width:380px;
+    border-radius: 50px;
+}
+.Melvinpedia{
+    border: 2px solid black;
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 24px;
+    margin: 0px 0px 40px;
+}
+.title_Melvinpedia{
+    text-align: center;
+}
+.vertical_nav li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.search_box{
+    width: 300px;
+    height: 30px;
+}
+.vertical_nav li a{
+    text-decoration: none;
+}
+.puede_interesar li{
+    line-height: 30px;
+}
+footer{
+    background-color: #02383E;
+}
+.footer_container_1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 2% 0% 2%;
+}
+h3{
+    text-align: center;
+}
+footer li{
+    list-style-type: none;
+    
+}
+footer li a{
+    
+    text-decoration: none;
+    line-height: 30px;
+    color: rgba(227, 231, 235, 0.767);
+    font-size:14px;
+    
+}
+.footer_container_2_1{
+    margin: 2%;
+    
+}
+.footer_container_2_1 img{
+    border-radius: 5%;
+    height: 35px;
+    width: 120px;
+}
+.footer_container_2_2{
+    margin: 0% 4%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+.redes_sociales{
+ padding-left: 40%;
+ 
+}
+.redes_sociales svg{
+    padding-left: 30px;
+    margin-bottom: 10%;
+   }
+
